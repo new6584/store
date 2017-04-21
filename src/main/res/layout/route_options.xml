@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:weightSum="1">
+
+    <TextView 
+		android:id="@+id/route_option_time_route"
+		android:layout_width="0dp"
+        android:textAlignment="inherit"
+        android:layout_weight=".6"
+        android:layout_height="match_parent"
+        android:text="@string/time_route"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_weight=".4"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+
+	</LinearLayout>
+
+	<TextView 
+		android:id="@+id/route_option_distance_route"
+		android:layout_width="0dp"
+        android:textAlignment="inherit"
+        android:layout_weight=".25"
+        android:layout_height="match_parent"
+        android:text="@string/distance_route"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+	    <TextView 
+		android:id="@+id/route_option_distance_time"
+		android:layout_width="0dp"
+        android:textAlignment="inherit"
+        android:layout_weight=".25"
+        android:layout_height="match_parent"/>
+        <TextView 
+		android:id="@+id/route_option_distance_distance"
+		android:layout_width="0dp"
+        android:textAlignment="inherit"
+        android:layout_weight=".25"
+        android:layout_height="match_parent"/>
+
+	</LinearLayout>
+
+	<TextView 
+		android:id="@+id/route_option_eco_route"
+		android:layout_width="0dp"
+        android:textAlignment="inherit"
+        android:layout_weight=".25"
+        android:layout_height="match_parent"
+        android:text="@string/eco_route"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical">
+
+	</LinearLayout>
+</LinearLayout>

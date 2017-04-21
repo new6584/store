@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EvokeCompanion</string>
+    <string name="access_token">pk.eyJ1IjoiZXZva2UiLCJhIjoiY2oxaDgzZ282MDA5YzJ5b2FoYjJ1Y3AxeiJ9.EG8HqyG9Qn1KeVmbDjw2zg</string>
+    <string name="title_activity_main">Evoke Companion</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+
+    <!-- Direction Routing -->
+    <string name="search_hint">Search Location</string>
+    <string name="services_exception">There was a problem finding the route</string>
+    <string name="direction_no_route">No routees found</string>
+    <string name="direction_location_disabled">Please Location Tracking</string>
+    <string name="direction_location_not_found">Unable to Find Your Location</string>
+    <string name="direction_prepend_total_distance">Distance: </string>
+    <string name="direction_prepend_total_duration">Duration: </string>
+    <string name="direction_grammer"> on </string>
+    <string name="time_route">Fastest Time</string>
+    <string name="distance_route">Shortest Distance</string>
+    <string name="eco_route">Eco</string>
+
+</resources>

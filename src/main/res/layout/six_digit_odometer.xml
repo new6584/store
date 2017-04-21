@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.evoke.cn.evokecompanion.views.OdometerSpinner
+        android:id="@+id/widget_odometer_spinner_100k"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".132"
+        android:background="@drawable/odo_item_background"
+        android:gravity="bottom" />
+
+    <com.evoke.cn.evokecompanion.views.OdometerSpinner
+        android:id="@+id/widget_odometer_spinner_10k"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".132"
+        android:background="@drawable/odo_item_background"
+        android:gravity="bottom" />
+
+    <com.evoke.cn.evokecompanion.views.OdometerSpinner
+        android:id="@+id/widget_odometer_spinner_1k"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".132"
+        android:background="@drawable/odo_item_background"
+        android:gravity="bottom" />
+
+    <com.evoke.cn.evokecompanion.views.OdometerSpinner
+        android:id="@+id/widget_odometer_spinner_100"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".132"
+        android:background="@drawable/odo_item_background"
+        android:gravity="bottom" />
+
+    <com.evoke.cn.evokecompanion.views.OdometerSpinner
+        android:id="@+id/widget_odometer_spinner_10"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".132"
+        android:background="@drawable/odo_item_background"
+        android:gravity="bottom" />
+
+    <com.evoke.cn.evokecompanion.views.OdometerSpinner
+        android:id="@+id/widget_odometer_spinner_1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".132"
+
+        android:background="@drawable/odo_item_background"
+        android:gravity="bottom" />
+
+    <ImageView
+        android:id="@+id/units"
+        android:src="@drawable/km"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_weight=".243"
+        android:gravity="bottom"
+        android:paddingBottom="0dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="2dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/units"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginBottom="0dp"-->
+        <!--android:layout_weight=".243"-->
+        <!--android:gravity="bottom"-->
+        <!--android:textStyle="bold"-->
+        <!--android:paddingBottom="0dp"-->
+        <!--android:paddingEnd="0dp"-->
+        <!--android:paddingStart="1dp"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:text=""-->
+        <!--android:textColor="#274b65"/>-->
+</LinearLayout>

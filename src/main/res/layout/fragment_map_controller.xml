@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.evoke.cn.evokecompanion.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mapbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.mapbox.services.android.geocoder.ui.GeocoderAutoCompleteView
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/white"
+        android:hint="@string/search_hint"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/location_toggle_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="end|bottom"
+        android:visibility="visible"
+        app:backgroundTint="@color/colorAccent"
+        app:srcCompat="@drawable/ic_my_location_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.evoke.cn.evokecompanion.views.AddressResultView
+        android:id="@+id/search_res_direction_list"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    </com.evoke.cn.evokecompanion.views.AddressResultView>
+
+</RelativeLayout>

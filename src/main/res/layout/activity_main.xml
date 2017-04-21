@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.evoke.cn.evokecompanion.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".9"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <!-- Autocomplete for map searching-->
+
+        <!-- Bottom Navigation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".1">
+            <Button
+                android:id="@+id/nav_tab_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="User"/>
+            <Button
+                android:id="@+id/nav_tab_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Map"/>
+            <Button
+                android:id="@+id/nav_tab_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Stats"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="end|bottom"-->
+    <!--android:layout_margin="@dimen/fab_margin"-->
+    <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>
